@@ -28,4 +28,4 @@ def predict_price(data: HouseData):
     return {"predicted_price": f"${harga_rumah:,.2f}"}
 
 # # uvicorn main:app --reload
-# # http://localhost:8000/generate
+# # http://localhost:8000/predict
