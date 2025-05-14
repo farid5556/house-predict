@@ -27,5 +27,5 @@ def predict_price(data: HouseData):
     # Mengembalikan harga prediksi dalam format JSON
     return {"predicted_price": f"${harga_rumah:,.2f}"}
 
-# # uvicorn main:app --reload
-# # http://localhost:8000/predict
+# uvicorn main:app --reload
+# http://localhost:8000/predict
