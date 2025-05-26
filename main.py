@@ -4,7 +4,7 @@ import joblib
 from pydantic import BaseModel
 
 # Load model yang sudah disimpan
-model = joblib.load('D:\\Pemrograman\\machine learning\\portfolio\\house-predict\\house-predict-project.pkl')
+model = joblib.load('house-predict-project.pkl')
 
 app = FastAPI()
 
