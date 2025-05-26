@@ -15,6 +15,10 @@ class HouseData(BaseModel):
     sqft_lot: int
     floors: int
     yr_built: int
+    
+@app.get("/")
+def read_root():
+    return {"message": "API is running"}
 
 @app.post("/predict")
 def predict_price(data: HouseData):
