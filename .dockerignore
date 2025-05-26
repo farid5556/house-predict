@@ -1,0 +1,32 @@
+# Abaikan file/folder yang tidak perlu dimasukkan ke dalam image Docker
+
+# Folder virtual environment
+env/
+venv/
+.venv/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*.so
+
+# File editor
+*.swp
+*.swo
+*~
+
+# File sistem
+.DS_Store
+
+# Git dan log
+.git
+.gitignore
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Lain-lain
+*.zip
+*.tar.gz
+*.egg-info/
